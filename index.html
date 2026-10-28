@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lance Swett — Software Developer</title>
+  <meta name="description" content="Lance Swett — software developer in Flint, MI. Python, JavaScript, SQL. Builder of ListManager, SalonOS, and tools people use every day. Open to remote roles.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a class="nav-logo mono" href="#top">LS<span class="accent">.</span>dev</a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a class="mono" href="#about">About</a>
+        <a class="mono" href="#projects">Projects</a>
+        <a class="mono" href="#experience">Experience</a>
+        <a class="mono" href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow mono reveal">Flint Township, MI · Open to remote</p>
+        <h1 class="reveal">Lance Swett<span class="accent">.</span></h1>
+        <p class="hero-sub reveal">
+          Software developer with a printer's eye for detail. I build tools that do
+          real work — a mailing-list system running in daily production at
+          University of Michigan&#8209;Flint, production web apps, and automation
+          pipelines that quietly save thousands of dollars.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta mono reveal">
+          <span>Python</span><i></i><span>JavaScript</span><i></i><span>SQL</span><i></i><span>M.S. Computer Science</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label mono reveal">01 — About</p>
+        <div class="about-grid">
+          <div class="reveal">
+            <h2>Design-trained. Production-tested.</h2>
+            <p>
+              I spent five years in commercial printing and campus mail services,
+              where a misplaced decimal costs real money and deadlines don't move.
+              So I taught myself to program — first PostScript and Ruby, then
+              Python, SQL, and JavaScript — and started replacing the tedious
+              parts of my own job.
+            </p>
+            <p>
+              That turned into ListManager, a desktop application the University of
+              Michigan&#8209;Flint now uses to merge, validate, and standardize
+              mailing lists — work that helped cut costs on large-scale mailings
+              by <strong class="text-strong">75%</strong>. Since then I've built
+              production web apps in Next.js, an automated video pipeline in
+              Python, and machine-learning projects, and finished an
+              M.S. in Computer Science in 2025.
+            </p>
+            <p>
+              The BFA in Graphic Design shows up in everything I ship: interfaces
+              that make sense the first time you see them.
+            </p>
+          </div>
+          <aside class="about-facts reveal" aria-label="Quick facts">
+            <div class="fact">
+              <span class="fact-num">5+</span>
+              <span class="fact-label mono">Years building software professionally</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">75%</span>
+              <span class="fact-label mono">Cost savings on large-scale mailings</span>
+            </div>
+            <div class="fact">
+              <span class="fact-num">M.S.</span>
+              <span class="fact-label mono">Computer Science, UM-Flint 2025</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="skills reveal" aria-label="Skills">
+          <div class="skill-group">
+            <h3 class="mono">Languages</h3>
+            <ul><li>Python</li><li>JavaScript</li><li>SQL</li><li>Ruby</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="mono">Web</h3>
+            <ul><li>Next.js / React</li><li>Django</li><li>HTML / CSS</li><li>REST APIs</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="mono">Data &amp; ML</h3>
+            <ul><li>pandas</li><li>NumPy</li><li>scikit-learn</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="mono">Tools</h3>
+            <ul><li>PostgreSQL / MySQL</li><li>Git · Linux</li><li>PostScript / PDF</li><li>Agile</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label mono reveal">02 — Projects</p>
+        <h2 class="reveal">Things I've shipped.</h2>
+
+        <div class="project-featured">
+          <article class="card card-featured reveal">
+            <div class="card-top mono">
+              <span>Featured</span>
+              <a class="card-link" href="https://github.com/Lswett/ListManager" target="_blank" rel="noopener">github.com/Lswett/ListManager ↗</a>
+            </div>
+            <h3>ListManager</h3>
+            <p>
+              Desktop application that merges, validates, and standardizes mailing
+              lists — automated ZIP/state verification, international-mail routing,
+              and template-ready exports designed for non-technical staff. Built
+              with PySide6, pandas, and openpyxl; in daily production at the
+              University of Michigan&#8209;Flint since 2023.
+            </p>
+            <ul class="tags mono">
+              <li>Python</li><li>PySide6</li><li>pandas</li><li>openpyxl</li><li>Production</li>
+            </ul>
+          </article>
+
+          <article class="card card-featured reveal">
+            <div class="card-top mono">
+              <span>Featured</span>
+              <span class="card-note">Private repo · walkthrough on request</span>
+            </div>
+            <h3>SalonOS</h3>
+            <p>
+              Production website for a working salon, architected as a reusable
+              template: every piece of client content lives in one config file,
+              so the same codebase serves future clients with a swap, not a
+              rewrite. Next.js App Router, TypeScript, Tailwind CSS v4, Square
+              Appointments booking embed.
+            </p>
+            <ul class="tags mono">
+              <li>Next.js 16</li><li>TypeScript</li><li>Tailwind v4</li><li>Production</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="project-grid">
+          <article class="card reveal">
+            <div class="card-top mono">
+              <span>Automation</span>
+              <a class="card-link" href="https://github.com/Lswett/PrintPilot" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+            <h3>PrintPilot</h3>
+            <p>Print &amp; mail job dashboard — job intake for mailing lists and print runs, with status tracking from file prep through delivery.</p>
+            <ul class="tags mono"><li>Python</li><li>Dashboards</li></ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top mono">
+              <span>Media pipeline</span>
+              <span class="card-note">Private</span>
+            </div>
+            <h3>ArcaneAI Adventures</h3>
+            <p>Automated story-to-video pipeline: offline neural narration (Kokoro), word-synced captions, batched 1080p long-form output plus 9:16 shorts for every story.</p>
+            <ul class="tags mono"><li>Python</li><li>Kokoro TTS</li><li>FFmpeg</li></ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top mono">
+              <span>Small business</span>
+              <span class="card-note">Client site</span>
+            </div>
+            <h3>Cozy Confections</h3>
+            <p>Home-bakery site with a steppers-and-totals ordering flow, live pricing, and a cottage-food-law-compliant pickup model. Hand-written HTML/CSS/JS.</p>
+            <ul class="tags mono"><li>HTML / CSS</li><li>JavaScript</li></ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top mono">
+              <span>Machine learning</span>
+              <a class="card-link" href="https://github.com/Lswett/Depression-Indicator" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+            <h3>Depression Indicator</h3>
+            <p>Machine-learning project exploring behavioral indicators of depression — feature engineering and classifier evaluation with scikit-learn.</p>
+            <ul class="tags mono"><li>Python</li><li>scikit-learn</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section-label mono reveal">03 — Experience</p>
+        <h2 class="reveal">Where the work happened.</h2>
+
+        <div class="timeline">
+          <div class="entry reveal">
+            <p class="entry-when mono">2021 — Present</p>
+            <div class="entry-body">
+              <h3>Auto Mailing Equipment Operator / Courier</h3>
+              <p class="entry-org">University of Michigan-Flint · Flint, MI</p>
+              <p>
+                Designed and built ListManager (Python, pandas, openpyxl,
+                dbfread) — automating ZIP/state verification, international-mail
+                routing, and template-ready exports for non-technical staff.
+                Operate and manage campus mailing equipment supporting university
+                logistics.
+              </p>
+            </div>
+          </div>
+
+          <div class="entry reveal">
+            <p class="entry-when mono">2018 — 2023</p>
+            <div class="entry-body">
+              <h3>Printing Press Operator / Programmer</h3>
+              <p class="entry-org">Ticket Doctor · Flint, MI</p>
+              <p>
+                Maintained and extended tools across five years of daily
+                production use — debugging PostScript errors and output-device
+                compatibility issues as jobs demanded. Coordinated file
+                preparation and output quality with design staff on
+                high-volume runs.
+              </p>
+            </div>
+          </div>
+
+          <div class="entry reveal">
+            <p class="entry-when mono">2023 — 2025</p>
+            <div class="entry-body">
+              <h3>M.S. Computer Science</h3>
+              <p class="entry-org">University of Michigan-Flint</p>
+              <p>Coursework: Databases, Algorithms, Machine Learning, Software Engineering. Prior: BFA Graphic Design, UM-Flint (2018–2020).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <p class="section-label mono reveal">04 — Contact</p>
+        <h2 class="reveal">Let's build something.</h2>
+        <p class="contact-lead reveal">
+          Open to full-time software development roles — remote strongly preferred,
+          or on-site around Flint, Michigan.
+        </p>
+        <div class="contact-grid reveal">
+          <a class="card contact-card" href="mailto:LanceSwett3773@gmail.com">
+            <span class="mono card-top-label">Email</span>
+            <span class="contact-value">LanceSwett3773@gmail.com</span>
+          </a>
+          <a class="card contact-card" href="https://github.com/Lswett" target="_blank" rel="noopener">
+            <span class="mono card-top-label">GitHub</span>
+            <span class="contact-value">github.com/Lswett</span>
+          </a>
+          <a class="card contact-card" href="https://linkedin.com/in/lances" target="_blank" rel="noopener">
+            <span class="mono card-top-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/lances</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="mono">© <span id="year">2026</span> Lance Swett</p>
+      <p class="mono footer-note">Designed &amp; built by hand — no template.</p>
+      <a class="mono" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
